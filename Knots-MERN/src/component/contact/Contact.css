@@ -1,0 +1,130 @@
+.contact {
+ 
+  width: 80%;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#overlay-contact {
+  width: 60%;
+  height: 100%;
+}
+
+.overlay-contact form {
+  max-width: 550px;
+  width: 90%;
+  background: white;
+  margin: 17vh auto 0 auto;
+  padding: 40px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  z-index: 2;
+  display: block;
+  margin: 10px 0;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ border-radius: 20px;
+ margin: auto;
+ position: relative;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 15px;
+}
+input::placeholder{
+  color: grey;
+  font-size: 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+}
+input[type="text"]:focus,
+textarea:focus {
+  border-bottom: 1px solid rgb(255, 0, 106);
+}
+
+
+textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 106);
+}
+
+.center {
+  text-align: center;
+}
+
+input[type="submit"] {
+  margin-top: 30px;
+  width: 90%;
+  max-width: 200px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 3px;
+  background: linear-gradient(to right, rgba(255, 0, 106), rgba(255, 67, 61));
+}
+
+.error {
+  color: red;
+}
+
+.error-border {
+  border-bottom: 1px solid red;
+}
+
+#success {
+  color: #28a745;
+}
+
+.submit:hover {
+  background: #f12711;
+  background: -webkit-linear-gradient(to right, #f12711, #f5af19);
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+.innercontent{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 20px;
+  border-radius: 15px;
+
+ /* background: rgb(251,63,63);
+  background: radial-gradient(circle, rgba(251,63,63,0.9809173669467787) 11%, rgba(252,146,70,1) 63%);*/
+
+  background: rgb(241,38,85);
+  background: radial-gradient(circle, rgba(241,38,85,1) 11%, rgba(252,220,220,1) 100%);
+ 
+
+  border: 1px solid black;
+
+}
+label{
+  margin-left: 40px;
+  color: black;
+ 
+}
+
+

@@ -1,0 +1,28 @@
+.confirmation-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.confirmation-icon {
+    font-size: 60px;
+    color: #d80032;
+}
+
+h1 {
+    color: #d80032;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #d80032;
+    margin-top: 5px;
+}
+
+.cheesy-line {
+    color: #333;
+    font-style: italic;
+    margin-top: 20px;
+}
